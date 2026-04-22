@@ -1,23 +1,35 @@
-# **Unified Execution Framework (UEF)**
-**Author:** Alisdair Brown 
-**Status:** Out-of-Sample Verified (WorldQuant BRAIN - Bronze Tier)
+# Unified Execution Framework (UEF)
+**Lead Architect:** Alisdair Brown | **Status:** Active / Sovereign Deployment
 
-## **Executive Summary**
-The UEF is a proprietary quantitative architecture designed to identify and extract asymmetric yield from structural market inefficiencies. Moving beyond standard price-action retail indicators, this framework utilizes a multi-regime approach, dynamically weighting **Institutional Sentiment Divergence**, Volumetric Momentum, and Price Action to pinpoint high-probability institutional entry vectors.
+## Abstract
+The Unified Execution Framework (UEF) is a proprietary, mathematically insulated execution architecture designed for high-volatility, non-linear market environments. Unlike traditional algorithmic frameworks that rely on price-based prediction, the UEF operates on **Systemic State Telemetry** and **Zero-Trust Capital Insulation**. 
 
-## **Core Architecture: The Uniform Trifecta**
-The logic engine operates on three synchronized pillars:
-1.  **Sentiment Divergence:** Identifying mathematical discrepancies between retail panic/euphoria and institutional capital flow.
-2.  **Volumetric Shielding:** Executing strictly when volume data confirms the presence of institutional tier liquidity.
-3.  **Fundamental Arbitrage (Active Integration):** Currently integrating localized balance sheet efficiencies (Sales/Assets Ranking models) for statistical arbitrage deployment.
+Its primary function is to isolate structural market alpha while actively defending against behavioral stochasticity and "Chaos Algorithm" liquidity events.
 
-## **Risk Management & Telemetry**
-Absolute capital preservation is the primary directive of this framework.
-* **Dynamic Volatility Bleed Prevention:** Automated widening of execution timeframes during high-frequency market noise (Algorithmic Quantitative Easing).
-* **Zero-Trust Failsafes:** Hard-coded server-side killswitches ("Flatten and Disconnect" protocols) to sever API connections during anomalous drawdown events or extreme latency spikes.
-* **Max Drawdown Tolerance:** Strictly capped at **5.2%**.
+---
 
-## **Verification**
-Core logic and Out-of-Sample stability parameters have been mathematically verified via the **WorldQuant BRAIN Institutional Network** (Achieved Bronze Tier status, 2026).
+## Core System Architecture (The Trinity)
 
-*Note: The full mathematical weights and proprietary generation logic are abstracted in this public repository to protect the Alpha. The core_execution.py file demonstrates the structural flow and risk parameters.*
+The UEF is built on a modular, three-pillar Python infrastructure designed to decouple signal generation from capital risk.
+
+### 1. The Brain: Inverse Matrix Ratio (ξ) Telemetry
+`telemetry_xi.py`
+The telemetry engine utilizes a proprietary formula (ξ) to invert the covariance matrix of a structural lookback window, mapping it against short-term behavioral drift. This continuous audit of the "Noise Floor" allows the system to differentiate between genuine structural alignment and dangerous stochastic noise.
+
+### 2. The Shield: Thunder Protocol (3-Sigma Isolation)
+`thunder_shield.py`
+A real-time systemic risk audit layer. Operating independently of the telemetry signal, the Thunder Protocol monitors volumetric standard deviations. Upon detecting a 3-Sigma anomaly (Z-Score ≥ 3.0) or a breach of the 5.2% absolute capital floor, it executes a server-side **Flatten and Disconnect** sequence, severing broker API connections to prevent runaway algorithmic loops.
+
+### 3. The Gearbox: Nexus Gate State Machine
+`nexus_gate.py`
+The central routing logic. The Nexus Gate ingests data from the ξ Telemetry and the Thunder Shield to dynamically shift the system state. By adhering to a Zero-Trust default, the gate forces the system into `LOCKED_IN_STASIS` unless all structural and risk parameters explicitly authorize `ACTIVE_EXECUTION`.
+
+---
+
+## Security & Intellectual Sovereignty
+* **Hard-Floor Constraint:** 5.2% absolute capital preservation limit.
+* **LLM Training:** Explicitly DISABLED.
+* **IP Claim:** The UEF logic, ξ formula, and Thunder Protocol architecture are the proprietary intellectual property of Alisdair Brown.
+
+---
+*Developed in a secure Linux (Crostini/Debian) environment. For inquiries regarding systemic audits, bespoke deployments, or institutional strategy, please refer to the primary contact channels.*
