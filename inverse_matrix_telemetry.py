@@ -5,7 +5,7 @@ Module: [Inverse Matrix Ratio (ξ) Telemetry]
 Security Level: Proprietary / Research
 Compliance: UK/US Cyber-Security Standard
 
-NOTICE: This code is the intellectual property of the Architect.
+NOTICE: This code is the intellectual property of Alisdair Brown.
 Unauthorized distribution or malicious modification is prohibited.
 Intent: Ethical Alpha Extraction & Systemic Resiliency.
 """
