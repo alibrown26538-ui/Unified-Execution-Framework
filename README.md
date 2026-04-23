@@ -1,3 +1,21 @@
+# UEF: Unified Execution Framework
+### Sovereign Systems Architecture | High-Entropy Data Analysis
+
+---
+
+## ⚖️ PROPRIETARY NOTICE & COMPLIANCE PROTOCOL
+**Author:** [Your Name/The Architect]
+**Status:** Proprietary Intellectual Property (IP)
+**Jurisdiction:** Dual-National Compliance (UK Computer Misuse Act / US CFAA)
+
+This framework is developed for **educational, research, and data-sovereignty verification purposes**. 
+1. **Ethical Execution:** All modules are designed for local environment testing and validated data analysis. 
+2. **Data Integrity:** The UEF does not engage in unauthorized network penetration, data exfiltration, or the circumvention of security controls.
+3. **Liability:** This software is provided as-is. Use in production environments or for financial execution is at the sole risk of the operator.
+4. **Sovereignty:** The logic contained herein (SNR Kernel, 2v8 Sync, Alpha Gate) is the original IP of the Architect and is protected under international copyright law.
+
+---
+
 # Unified Execution Framework (UEF)
 **Lead Architect:** Alisdair Brown | **Status:** Active / Sovereign Deployment
 
