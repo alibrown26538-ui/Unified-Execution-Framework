@@ -1,13 +1,13 @@
 """
 UEF SOVEREIGN PROTOCOL HEADER
 Project: Unified Execution Framework (UEF)
-Module: [Nexus Gate State Machine]
+Module: Nexus Gate State Machine
 Security Level: Proprietary / Research
 Compliance: UK/US Cyber-Security Standard
 
-NOTICE: This code is the intellectual property of the Architect.
+NOTICE: This code is the intellectual property of Alisdair Brown.
 Unauthorized distribution or malicious modification is prohibited.
-Intent: Ethical Alpha Extraction & Systemic Resiliency.
+Intent: Zero-Trust Logic Routing & State Management.
 """
 import logging
 from typing import Dict
