@@ -1,3 +1,14 @@
+"""
+UEF SOVEREIGN PROTOCOL HEADER
+Project: Unified Execution Framework (UEF)
+Module: Thunder Protocol (3-Sigma Isolation)
+Security Level: Proprietary / Research
+Compliance: UK/US Cyber-Security Standard
+
+NOTICE: This code is the intellectual property of Alisdair Brown.
+Unauthorized distribution or malicious modification is prohibited.
+Intent: Systemic Risk Audit & Automated Disconnect.
+"""
 import numpy as np
 import logging
 from typing import Dict, Tuple
