@@ -1,3 +1,14 @@
+"""
+UEF SOVEREIGN PROTOCOL HEADER
+Project: Unified Execution Framework (UEF)
+Module: Inverse Matrix (ξ) Logic
+Security Level: Proprietary / Research
+Compliance: UK/US Cyber-Security Standard
+
+NOTICE: This code is the intellectual property of Alisdair Brown.
+Unauthorized distribution or malicious modification is prohibited.
+Intent: Ethical Alpha Extraction & Systemic Resiliency.
+"""
 import numpy as np
 import pandas as pd
 from typing import Dict, Optional, Tuple
