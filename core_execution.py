@@ -1,7 +1,7 @@
 """
 UEF SOVEREIGN PROTOCOL HEADER
 Project: Unified Execution Framework (UEF)
-Module: [Insert Module Name Here]
+Module: [Module: Unified Execution Command (UEC)]
 Security Level: Proprietary / Research
 Compliance: UK/US Cyber-Security Standard
 
