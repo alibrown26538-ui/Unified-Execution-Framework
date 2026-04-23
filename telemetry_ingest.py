@@ -1,3 +1,14 @@
+"""
+UEF SOVEREIGN PROTOCOL HEADER
+Project: Unified Execution Framework (UEF)
+Module: [Telemetry Ingest Bridge]
+Security Level: Proprietary / Research
+Compliance: UK/US Cyber-Security Standard
+
+NOTICE: This code is the intellectual property of the Architect.
+Unauthorized distribution or malicious modification is prohibited.
+Intent: Ethical Alpha Extraction & Systemic Resiliency.
+"""
 import yfinance as yf
 import pandas as pd
 import numpy as np
