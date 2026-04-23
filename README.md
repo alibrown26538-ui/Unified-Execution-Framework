@@ -4,7 +4,7 @@
 ---
 
 ## ⚖️ PROPRIETARY NOTICE & COMPLIANCE PROTOCOL
-**Author:** [Your Name/The Architect]
+**Author:** [Alisdair Brown]
 **Status:** Proprietary Intellectual Property (IP)
 **Jurisdiction:** Dual-National Compliance (UK Computer Misuse Act / US CFAA)
 
