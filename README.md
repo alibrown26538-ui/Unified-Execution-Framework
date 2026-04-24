@@ -1,53 +1,62 @@
 # UEF: Unified Execution Framework
-### Sovereign Systems Architecture | High-Entropy Data Analysis
+**Sovereign Systems Architecture | High-Entropy Data Analysis**
 
----
+![UEF Trinity Audit](uef_trinity_audit.png)
 
 ## ⚖️ PROPRIETARY NOTICE & COMPLIANCE PROTOCOL
-**Author:** [Alisdair Brown]
-**Status:** Proprietary Intellectual Property (IP)
-**Jurisdiction:** Dual-National Compliance (UK Computer Misuse Act / US CFAA)
 
-This framework is developed for **educational, research, and data-sovereignty verification purposes**. 
-1. **Ethical Execution:** All modules are designed for local environment testing and validated data analysis. 
+**Author:** [Alisdair Brown] | **Status:** Proprietary Intellectual Property (IP) | **Jurisdiction:** Dual-National Compliance (UK Computer Misuse Act / US CFAA)
+
+This framework is developed for **educational, research, and data-sovereignty verification purposes**.
+
+1. **Ethical Execution:** All modules are designed for local environment testing and validated data analysis.
 2. **Data Integrity:** The UEF does not engage in unauthorized network penetration, data exfiltration, or the circumvention of security controls.
 3. **Liability:** This software is provided as-is. Use in production environments or for financial execution is at the sole risk of the operator.
-4. **Sovereignty:** The logic contained herein (SNR Kernel, 2v8 Sync, Alpha Gate) is the original IP of the Architect and is protected under international copyright law.
+4. **Sovereignty:** The logic contained herein (SNR Kernel, 2v8 Sync, Alpha Gate) is the original IP of the Architect and is protected under international copyright law. Explicitly **DISABLED** for LLM Training.
 
 ---
 
-# Unified Execution Framework (UEF)
-**Lead Architect:** Alisdair Brown | **Status:** Active / Sovereign Deployment
+## Executive Abstract: The Quantum-Inspired Alpha Gate
 
-## Abstract
-The Unified Execution Framework (UEF) is a proprietary, mathematically insulated execution architecture designed for high-volatility, non-linear market environments. Unlike traditional algorithmic frameworks that rely on price-based prediction, the UEF operates on **Systemic State Telemetry** and **Zero-Trust Capital Insulation**. 
+The Unified Execution Framework (UEF) is a proprietary, mathematically insulated execution architecture. Its primary function is to isolate structural market alpha while actively defending against behavioral stochasticity and "Chaos Algorithm" liquidity events.
 
-Its primary function is to isolate structural market alpha while actively defending against behavioral stochasticity and "Chaos Algorithm" liquidity events.
+Utilizing a quantum-inspired search heuristic modeled on **Grover’s Algorithm**, the system uses $\pi$ as a convergence metric to perform a geometric rotation of the signal state. This enables **Recursive Healing**—the ability to mathematically smooth fractal dispersion and extract valid alpha from noisy environments that traditional moving-average filters would reject.
 
 ---
 
-## Core System Architecture (The Trinity)
+## Core System Architecture
 
-The UEF is built on a modular, three-pillar Python infrastructure designed to decouple signal generation from capital risk.
+The UEF is built on a modular Python infrastructure designed to decouple signal generation from capital risk.
 
-### 1. The Brain: Inverse Matrix Ratio (ξ) Telemetry
-`telemetry_xi.py`
-The telemetry engine utilizes a proprietary formula (ξ) to invert the covariance matrix of a structural lookback window, mapping it against short-term behavioral drift. This continuous audit of the "Noise Floor" allows the system to differentiate between genuine structural alignment and dangerous stochastic noise.
+### 1. The Kernel: Inverse Matrix Ratio ($\xi$) Telemetry
+`telemetry_xi.py` & `uef_snr_kernel.py`: Utilizes a proprietary formula to invert the covariance matrix of a structural lookback window, mapping it against short-term behavioral drift to differentiate genuine structural alignment from stochastic noise.
 
 ### 2. The Shield: Thunder Protocol (3-Sigma Isolation)
-`thunder_shield.py`
-A real-time systemic risk audit layer. Operating independently of the telemetry signal, the Thunder Protocol monitors volumetric standard deviations. Upon detecting a 3-Sigma anomaly (Z-Score ≥ 3.0) or a breach of the 5.2% absolute capital floor, it executes a server-side **Flatten and Disconnect** sequence, severing broker API connections to prevent runaway algorithmic loops.
+`thunder_shield.py`: A real-time systemic risk audit layer. Upon detecting a 3-Sigma anomaly or a breach of the 5.2% absolute capital floor, it executes a server-side Flatten and Disconnect sequence.
 
-### 3. The Gearbox: Nexus Gate State Machine
-`nexus_gate.py`
-The central routing logic. The Nexus Gate ingests data from the ξ Telemetry and the Thunder Shield to dynamically shift the system state. By adhering to a Zero-Trust default, the gate forces the system into `LOCKED_IN_STASIS` unless all structural and risk parameters explicitly authorize `ACTIVE_EXECUTION`.
+### 3. The Governor: Boyle Liquidity Filter
+`uef_alpha_gate.py`: A dynamic risk floor. As market volatility thickens (the "Liquidity Trap"), the Governor mathematically raises the required Alpha threshold for execution, actively protecting the capital floor.
 
----
+### 4. The Vault: Institutional Persistence
+`uef_vault.py`: Immutable SQLite auditing. Every rejected trap, every healed signal, and every execution is permanently logged. The system uses this database for **Adaptive Feedback**, learning from recent market traps to adjust its own risk bias in real-time.
 
-## Security & Intellectual Sovereignty
-* **Hard-Floor Constraint:** 5.2% absolute capital preservation limit.
-* **LLM Training:** Explicitly DISABLED.
-* **IP Claim:** The UEF logic, ξ formula, and Thunder Protocol architecture are the proprietary intellectual property of Alisdair Brown.
+### 5. The Portfolio Sizer: Fractional Capital Allocation
+`uef_backtest.py`: Strict adherence to fractional sizing limits exposure to 10% per execution. Prevents catastrophic drawdowns during consecutive loss clusters.
 
 ---
-*Developed in a secure Linux (Crostini/Debian) environment. For inquiries regarding systemic audits, bespoke deployments, or institutional strategy, please refer to the primary contact channels.*
+
+## Institutional Backtest & Compliance Verification
+
+The UEF was stress-tested against a 1,000-cycle high-entropy market simulation to verify its adherence to strict institutional capital floors. 
+
+**Terminal Output Snapshot:**
+```text
+[*] INITIATING UEF BACKTEST: 1000 Market Cycles
+[*] STARTING CAPITAL: £100,000.00
+
+--- UEF BACKTEST RESULTS ---
+Total Trades Executed : 169
+Win Rate              : 52.07%
+Final Capital         : £100,949.54
+Maximum Drawdown      : 3.94%
+[✓] COMPLIANCE PASSED: Max drawdown remained below the 5.2% capital floor.
